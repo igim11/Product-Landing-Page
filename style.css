@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Garamond, Times New Roman, Serif;
+}
+
+#header-img {
+  width: auto;
+  height: 50px;
+  padding: 10px;
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to top, #F8C596 75%,#FC5D9D 100%);
+}
+
+.nav-link {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #FC5D9D;
+}
+
+.background-color {
+  background: linear-gradient(to top, #F8C596,#FC5D9D, #F8C596);
+}
+
+#homepage {
+  height: 80vh;
+  width: 100vw;
+  padding-top: 60px;
+}
+
+#homepage-img {
+  background-image: url('images/twice-img.jpg');
+  width: 100vw;
+  height: 640px;
+  background-size: auto;
+}
+
+#concert-dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 10px;
+}
+
+.title-font, .nav-link {
+  font-family: Garamond, Times New Roman, Serif;
+  color: #FC5D9D;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 150%;
+}
+
+.concert-month {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px 0;
+}
+
+.concert-sched p{
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.concert-date {
+  text-align: left;
+  width: 25%;
+}
+
+.concert-location {
+  text-align: right;
+  width: 75%;
+}
+
+#media-gallery {
+  text-align: center;
+  padding: 10px;
+  width: 100vw;
+}
+
+.vid-thumbnail {
+  padding: 5px;
+  width: 560px;
+  height: 315px;
+}
+
+#newsletter {
+  text-align: center;
+  padding: 10px;
+  height: 20vh;
+  width: 100vw;
+}
+
+#newsletter-desc {
+  font-weight: bold;
+}
+
+#form {
+  padding: 10px;
+  height: 80%;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+#email {
+  background-color: #F8C596;
+  border: 1px solid #FC5D9D;
+  height: 30%;
+  width: 70%;
+  font-size: 110%;
+}
+
+#submit {
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  background-color: #FC5D9D;
+  border-color: white;
+  min-width: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#submit:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#thank-you-message {
+  padding-bottom: 5px;
+}
+
+/*responsive rules*/
+@media (max-width: 414px) {
+  .vid-thumbnail {
+    width: 300px;
+    height: auto;
+  }
+
+  #homepage-img {
+  background-image: url('images/twice-img\ phone.png');
+  width: 100vw;
+  min-height: 513px;
+  height: 55vh;
+  margin: 0 auto;
+  background-position: left;
+  background-size: cover;
+  }
+  
+  .nav-link {
+    margin: 5px;
+    font-size: 100%;
+  }
+
+  .concert-sched p {
+    font-size: 80%;
+  }
+}

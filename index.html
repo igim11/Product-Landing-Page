@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWICE</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <a href="#homepage"><img id="header-img" src="images/twice-logo.png" alt="twice-logo"></a>
+      <a class="nav-link" href="#concert-dates">Concert Dates</a>
+      <a class="nav-link" href="#media-gallery">Media Gallery</a>
+      <a class="nav-link" href="#newsletter">Newsletter</a>
+    </nav>
+  </header>
+  <main>
+    <div id="homepage" class="background-color">
+      <div id="homepage-img"></div>
+    </div>
+    <div id="concert-dates" class="background-color">
+      <h2 id="concert-dates-title" class="title-font">Concert Dates</h2>
+      <section class="concert-month">
+        <article class="concert-sched">
+          <p class="concert-date">APR 15 - 16</p><p class="concert-location">KSPO DOME, SEOUL</p>
+        </article>
+      </section>
+      <section class="concert-month">
+        <article class="concert-sched">
+          <p class="concert-date">MAY 3</p><p class="concert-location">QUDOS BANK ARENA, SYDNEY</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">MAY 6</p><p class="concert-location">ROD LAVER ARENA, MELBOURNE</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">MAY 13 - 14</p><p class="concert-location">YANMAR STADIUM NAGAI, OSAKA</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">MAY 20 - 21</p><p class="concert-location">AJINOMOTO STADIUM, TOKYO</p>
+        </article>
+      </section>
+      <section class="concert-month">
+        <article class="concert-sched">
+          <p class="concert-date">JUN 10</p><p class="concert-location">SOFI STADIUM, LOS ANGELES</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUN 13</p><p class="concert-location">OAKLAND ARENA, OAKLAND</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUN 16</p><p class="concert-location">TACOMA DOME, SEATTLE</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUN 21</p><p class="concert-location">GLOBE LIFE FIELD, DALLAS</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUN 24</p><p class="concert-location">TOYOTA CENTER, HOUSTON</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUN 28</p><p class="concert-location">UNITED CENTER, CHICAGO</p>
+        </article>
+      </section>
+      <section class="concert-month">
+        <article class="concert-sched">
+          <p class="concert-date">JUL 2</p><p class="concert-location">SCOTIABANK ARENA, TORONTO</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUL 6</p><p class="concert-location">METLIFE STADIUM, NEW YORK</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">JUL 9</p><p class="concert-location">TRUST PARK, ATLANTA</p>
+        </article>
+      </section>
+      <section class="concert-month">
+        <article class="concert-sched">
+          <p class="concert-date">SEP 2</p><p class="concert-location">SINGAPORE INDOOR STADIUM, SINGAPORE</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">SEP 8</p><p class="concert-location">THE O2, LONDON</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">SEP 11</p><p class="concert-location">ACCOR ARENA, PARIS</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">SEP 14</p><p class="concert-location">MERCEDES-BENZ, BERLIN</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">SEP 23</p><p class="concert-location">IMPACT ARENA, BANGKOK</p>
+        </article>
+        <article class="concert-sched">
+          <p class="concert-date">SEP 30</p><p class="concert-location">PHILIPPINE ARENA, BULACAN</p>
+        </article>
+      </section>
+    </div>
+    <div id="media-gallery" class="background-color">
+      <h2 id="media-gallery-title" class="title-font">Media Gallery</h2>
+      <iframe id="video" class="vid-thumbnail" src="https://www.youtube.com/embed/eqqbMVlpQkM" frameborder="0" allowfullscreen></iframe>
+      <iframe class="vid-thumbnail" src="https://www.youtube.com/embed/AE1ZwLRZcJo" frameborder="0" allowfullscreen></iframe>
+      <iframe class="vid-thumbnail" src="https://www.youtube.com/embed/jY1k8si_CCo" frameborder="0" allowfullscreen></iframe>
+      <iframe class="vid-thumbnail" src="https://www.youtube.com/embed/cu-n1QB3bhw" frameborder="0" allowfullscreen></iframe>
+      <iframe class="vid-thumbnail"  src="https://www.youtube.com/embed/E3Fs426zC6Q" frameborder="0" allowfullscreen></iframe>
+      <iframe class="vid-thumbnail" src="https://www.youtube.com/embed/Imbdu4VYu2Q" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="newsletter" class="background-color">
+      <h2 id="newsletter-title" class="title-font">Newsletter</h2>
+      <p id="newsletter-desc">Register to receive the latest updates</p>
+      <form id="form" method="post">
+        <div id="thank-you-message"></div>
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+        <input id="submit" type="submit">
+      </form>
+    </div>
+  </main>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
